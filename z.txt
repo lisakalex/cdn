@@ -5,4 +5,6 @@ https://lisakalex.github.io/cdn/AI Summarizes User Request.html
 https://lisakalex.github.io/cdn/connect_to_a_mysql.md
 https://lisakalex.github.io/cdn/mot-7-4-25.png
 
+jenkins
+https://lisakalex.github.io/cdn/jenkins/assets/pie-data.json
 ~~~
