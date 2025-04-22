@@ -3,5 +3,6 @@ https://lisakalex.github.io/cdn/hindex.uk/assets/images/kpi.png
 https://lisakalex.github.io/cdn/new-ubuntu.txt
 https://lisakalex.github.io/cdn/AI Summarizes User Request.html
 https://lisakalex.github.io/cdn/connect_to_a_mysql.md
+https://lisakalex.github.io/cdn/mot-7-4-25.png
 
 ~~~
