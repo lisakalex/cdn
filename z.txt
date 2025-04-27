@@ -6,4 +6,6 @@ https://lisakalex.github.io/cdn/connect_to_a_mysql.md
 https://lisakalex.github.io/cdn/mot-7-4-25.png
 https://lisakalex.github.io/cdn/column-stacked.json
 
+jenkins
+https://lisakalex.github.io/cdn/jenkins/assets/pie-data.json
 ~~~
