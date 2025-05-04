@@ -11,7 +11,7 @@ jenkins
 https://lisakalex.github.io/cdn/jenkins/assets/pie-data.json
 
 chatik
-https://lisakalex.github.io/cdn/chatik/header.html
+https://lisakalex.github.io/cdn/chatik/sidebar.html
 
 
 
