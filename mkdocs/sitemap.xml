@@ -2,42 +2,166 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sitename.example/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/Comparison-of-Class-1.5-C200/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/Mercedes-Benz/Comparison-of-Class-1.5-C200/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/admonitions/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/Mercedes-Benz/Suspension-arm/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/code-examples/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/Mercedes-Benz/mercedes-benz/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/content-tabs/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/Mercedes-Benz/road-tax-for-elcectirc-vihecle/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/diagram-examples/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/docker/connect_to_a_mysql/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/documentation-sites/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/docker/copy%20docker%20image%20to%20%20other%20host/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/line-endings/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/docker/docker%20create%20image%20from%20running%20container/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/mercedes-benz/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/docker/import%20data%20in%20docker%20%20mysql/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/road-tax-for-elcectirc-vihecle/</loc>
-         <lastmod>2025-05-10</lastmod>
+         <loc>https://sitename.example/docker/remove%20all%20images%20and%20containers%20in%20docker/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/electrum/cold%20electrum%20wallet/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/electrum/install%20elcectrum%20wallet/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/job/agencies%20generally%20do%20not%20contact%20a%20candidate%E2%80%99s%20current%20employer/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/job/average%20salary%20devops%20engeneer%20in%20the%20uk/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/job/national%20minim%20wages%20in%20the%20uk/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/job/nine%20hours%20per%20shift%20%20patten%20four%20on%20two%20off/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/job/perplexity%20average%20salary%20for%20a%20DevOps%20/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/job/updating%20your%20CV%20can%20significantly%20improve%20your%20visibility%20/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/Restore%20Old%20SSH%20Key%20%28If%20Backed%20Up%29/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/Website%20Generator/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/basic%20nano%20usage/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/certbot%20to%20get%20sertificate%20and%20istall%20ssl/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/check%20health%20of%20ubuntu%20server/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/deal%20with%20with%20crlf%20and%20lf%20/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/install%20mod_wsgi/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/intellij%20linux%20make%20all%20line%20endings%20lr/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/linux%20grep%20tutorial/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/python%20capitalise%20string%20/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/linux/uninstall%20diodon/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/Camera%20cannot%20detect%20the%20aperture%20value/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/MkDocs-Setup/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/MkDocs-web-server/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/UK%20Immigration%20App/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/Welcome%20to%20MkDocs/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/admonitions/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/code-examples/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/content-tabs/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/diagram-examples/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/documentation-sites/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/line-endings/</loc>
+         <lastmod>2025-05-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/other/top%20navigation%20bar/</loc>
+         <lastmod>2025-05-16</lastmod>
     </url>
 </urlset>

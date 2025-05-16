@@ -8,22 +8,28 @@
       
       
       
+        <link rel="canonical" href="https://sitename.example/docker/import%20data%20in%20docker%20%20mysql/">
       
       
+        <link rel="prev" href="../docker%20create%20image%20from%20running%20container/">
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      
+        <link rel="next" href="../remove%20all%20images%20and%20containers%20in%20docker/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>Documentation</title>
+        <title>Import data in docker mysql - Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,14 +48,23 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -67,6 +82,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-import-data-during-docker-container-initialization" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -79,7 +99,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -99,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Import data in docker  mysql
             
           </span>
         </div>
@@ -203,7 +223,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -221,7 +241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -281,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/Comparison-of-Class-1.5-C200/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/Comparison-of-Class-1.5-C200/" class="md-nav__link">
         
   
   
@@ -304,7 +324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/Suspension-arm/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/Suspension-arm/" class="md-nav__link">
         
   
   
@@ -327,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/mercedes-benz/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/mercedes-benz/" class="md-nav__link">
         
   
   
@@ -350,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/road-tax-for-elcectirc-vihecle/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/road-tax-for-elcectirc-vihecle/" class="md-nav__link">
         
   
   
@@ -377,18 +397,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -404,7 +426,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Docker
@@ -418,7 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/connect_to_a_mysql/" class="md-nav__link">
+      <a href="../connect_to_a_mysql/" class="md-nav__link">
         
   
   
@@ -441,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/copy%20docker%20image%20to%20%20other%20host/" class="md-nav__link">
+      <a href="../copy%20docker%20image%20to%20%20other%20host/" class="md-nav__link">
         
   
   
@@ -464,7 +486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/docker%20create%20image%20from%20running%20container/" class="md-nav__link">
+      <a href="../docker%20create%20image%20from%20running%20container/" class="md-nav__link">
         
   
   
@@ -484,10 +506,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/docker/import%20data%20in%20docker%20%20mysql/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Import data in docker  mysql
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -498,6 +540,99 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-import-data-during-docker-container-initialization" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Import Data During Docker Container Initialization
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Import Data During Docker Container Initialization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-compose-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docker Compose Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-import-data-into-a-running-mysql-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Import Data Into a Running MySQL Container
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Import Data Into a Running MySQL Container">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-copy-the-sql-file-into-the-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Copy the SQL File Into the Container
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-execute-the-mysql-command-inside-the-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Execute the mysql Command Inside the Container
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-import-using-a-volume-mount" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Import Using a Volume Mount
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -510,7 +645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/remove%20all%20images%20and%20containers%20in%20docker/" class="md-nav__link">
+      <a href="../remove%20all%20images%20and%20containers%20in%20docker/" class="md-nav__link">
         
   
   
@@ -578,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/electrum/cold%20electrum%20wallet/" class="md-nav__link">
+      <a href="../../electrum/cold%20electrum%20wallet/" class="md-nav__link">
         
   
   
@@ -601,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/electrum/install%20elcectrum%20wallet/" class="md-nav__link">
+      <a href="../../electrum/install%20elcectrum%20wallet/" class="md-nav__link">
         
   
   
@@ -669,7 +804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/agencies%20generally%20do%20not%20contact%20a%20candidate%E2%80%99s%20current%20employer/" class="md-nav__link">
+      <a href="../../job/agencies%20generally%20do%20not%20contact%20a%20candidate%E2%80%99s%20current%20employer/" class="md-nav__link">
         
   
   
@@ -692,7 +827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/average%20salary%20devops%20engeneer%20in%20the%20uk/" class="md-nav__link">
+      <a href="../../job/average%20salary%20devops%20engeneer%20in%20the%20uk/" class="md-nav__link">
         
   
   
@@ -715,7 +850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/national%20minim%20wages%20in%20the%20uk/" class="md-nav__link">
+      <a href="../../job/national%20minim%20wages%20in%20the%20uk/" class="md-nav__link">
         
   
   
@@ -738,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/nine%20hours%20per%20shift%20%20patten%20four%20on%20two%20off/" class="md-nav__link">
+      <a href="../../job/nine%20hours%20per%20shift%20%20patten%20four%20on%20two%20off/" class="md-nav__link">
         
   
   
@@ -761,7 +896,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/perplexity%20average%20salary%20for%20a%20DevOps%20/" class="md-nav__link">
+      <a href="../../job/perplexity%20average%20salary%20for%20a%20DevOps%20/" class="md-nav__link">
         
   
   
@@ -784,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/updating%20your%20CV%20can%20significantly%20improve%20your%20visibility%20/" class="md-nav__link">
+      <a href="../../job/updating%20your%20CV%20can%20significantly%20improve%20your%20visibility%20/" class="md-nav__link">
         
   
   
@@ -852,7 +987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/Restore%20Old%20SSH%20Key%20%28If%20Backed%20Up%29/" class="md-nav__link">
+      <a href="../../linux/Restore%20Old%20SSH%20Key%20%28If%20Backed%20Up%29/" class="md-nav__link">
         
   
   
@@ -875,7 +1010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/Website%20Generator/" class="md-nav__link">
+      <a href="../../linux/Website%20Generator/" class="md-nav__link">
         
   
   
@@ -898,7 +1033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/basic%20nano%20usage/" class="md-nav__link">
+      <a href="../../linux/basic%20nano%20usage/" class="md-nav__link">
         
   
   
@@ -921,7 +1056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/certbot%20to%20get%20sertificate%20and%20istall%20ssl/" class="md-nav__link">
+      <a href="../../linux/certbot%20to%20get%20sertificate%20and%20istall%20ssl/" class="md-nav__link">
         
   
   
@@ -944,7 +1079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/check%20health%20of%20ubuntu%20server/" class="md-nav__link">
+      <a href="../../linux/check%20health%20of%20ubuntu%20server/" class="md-nav__link">
         
   
   
@@ -967,7 +1102,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/deal%20with%20with%20crlf%20and%20lf%20/" class="md-nav__link">
+      <a href="../../linux/deal%20with%20with%20crlf%20and%20lf%20/" class="md-nav__link">
         
   
   
@@ -990,7 +1125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/install%20mod_wsgi/" class="md-nav__link">
+      <a href="../../linux/install%20mod_wsgi/" class="md-nav__link">
         
   
   
@@ -1013,7 +1148,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/intellij%20linux%20make%20all%20line%20endings%20lr/" class="md-nav__link">
+      <a href="../../linux/intellij%20linux%20make%20all%20line%20endings%20lr/" class="md-nav__link">
         
   
   
@@ -1036,7 +1171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/linux%20grep%20tutorial/" class="md-nav__link">
+      <a href="../../linux/linux%20grep%20tutorial/" class="md-nav__link">
         
   
   
@@ -1059,7 +1194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/python%20capitalise%20string%20/" class="md-nav__link">
+      <a href="../../linux/python%20capitalise%20string%20/" class="md-nav__link">
         
   
   
@@ -1082,7 +1217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/uninstall%20diodon/" class="md-nav__link">
+      <a href="../../linux/uninstall%20diodon/" class="md-nav__link">
         
   
   
@@ -1150,7 +1285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/Camera%20cannot%20detect%20the%20aperture%20value/" class="md-nav__link">
+      <a href="../../other/Camera%20cannot%20detect%20the%20aperture%20value/" class="md-nav__link">
         
   
   
@@ -1173,7 +1308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/MkDocs-Setup/" class="md-nav__link">
+      <a href="../../other/MkDocs-Setup/" class="md-nav__link">
         
   
   
@@ -1196,7 +1331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/MkDocs-web-server/" class="md-nav__link">
+      <a href="../../other/MkDocs-web-server/" class="md-nav__link">
         
   
   
@@ -1219,7 +1354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/UK%20Immigration%20App/" class="md-nav__link">
+      <a href="../../other/UK%20Immigration%20App/" class="md-nav__link">
         
   
   
@@ -1242,7 +1377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/Welcome%20to%20MkDocs/" class="md-nav__link">
+      <a href="../../other/Welcome%20to%20MkDocs/" class="md-nav__link">
         
   
   
@@ -1265,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/admonitions/" class="md-nav__link">
+      <a href="../../other/admonitions/" class="md-nav__link">
         
   
   
@@ -1288,7 +1423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/code-examples/" class="md-nav__link">
+      <a href="../../other/code-examples/" class="md-nav__link">
         
   
   
@@ -1311,7 +1446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/content-tabs/" class="md-nav__link">
+      <a href="../../other/content-tabs/" class="md-nav__link">
         
   
   
@@ -1334,7 +1469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/diagram-examples/" class="md-nav__link">
+      <a href="../../other/diagram-examples/" class="md-nav__link">
         
   
   
@@ -1357,7 +1492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/documentation-sites/" class="md-nav__link">
+      <a href="../../other/documentation-sites/" class="md-nav__link">
         
   
   
@@ -1380,7 +1515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/line-endings/" class="md-nav__link">
+      <a href="../../other/line-endings/" class="md-nav__link">
         
   
   
@@ -1403,7 +1538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/top%20navigation%20bar/" class="md-nav__link">
+      <a href="../../other/top%20navigation%20bar/" class="md-nav__link">
         
   
   
@@ -1444,6 +1579,89 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-import-data-during-docker-container-initialization" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Import Data During Docker Container Initialization
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Import Data During Docker Container Initialization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-compose-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docker Compose Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-import-data-into-a-running-mysql-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Import Data Into a Running MySQL Container
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Import Data Into a Running MySQL Container">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-copy-the-sql-file-into-the-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Copy the SQL File Into the Container
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-execute-the-mysql-command-inside-the-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Execute the mysql Command Inside the Container
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-import-using-a-volume-mount" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Import Using a Volume Mount
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1454,8 +1672,79 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+  <h1>Import data in docker  mysql</h1>
+
+<p>To import data into a MySQL database running inside a Docker container, you can follow these steps. You can either import a SQL dump file during the container creation process or use a running container to import the data.</p>
+<h3 id="1-import-data-during-docker-container-initialization"><strong>1. Import Data During Docker Container Initialization</strong></h3>
+<p>You can place your SQL dump file (e.g., <code>mydatabase_dump.sql</code>) into a Docker volume or mount a directory from your host and use Docker's <code>docker-entrypoint-initdb.d</code> feature. MySQL will automatically import any SQL file placed in this directory when the container starts.</p>
+<p>Here’s how to do it:</p>
+<h4 id="docker-compose-example">Docker Compose Example:</h4>
+<p>Create a <code>docker-compose.yml</code> file:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;3.8&#39;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nt">services</span><span class="p">:</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">mysql</span><span class="p">:</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mysql:8.0</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my_mysql</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nt">environment</span><span class="p">:</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">      </span><span class="nt">MYSQL_ROOT_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">rootpassword</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">      </span><span class="nt">MYSQL_DATABASE</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mydatabase</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">      </span><span class="nt">MYSQL_USER</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myuser</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">      </span><span class="nt">MYSQL_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mypassword</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./data:/var/lib/mysql</span><span class="w">  </span><span class="c1"># Volume for MySQL data</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./init:/docker-entrypoint-initdb.d</span><span class="w">  </span><span class="c1"># Directory for initialization scripts</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="nt">ports</span><span class="p">:</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;3306:3306&quot;</span>
+</span></code></pre></div>
+<p>Now, place your <code>mydatabase_dump.sql</code> file in the <code>./init/</code> directory (on your host system). When you start the container, MySQL will automatically import this SQL file.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker-compose<span class="w"> </span>up
+</span></code></pre></div>
+<h3 id="2-import-data-into-a-running-mysql-container"><strong>2. Import Data Into a Running MySQL Container</strong></h3>
+<p>If your MySQL container is already running, you can import a SQL file using the following steps:</p>
+<h4 id="step-1-copy-the-sql-file-into-the-container">Step 1: Copy the SQL File Into the Container</h4>
+<p>You can use the <code>docker cp</code> command to copy the SQL dump file from the host system to the MySQL container.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>docker<span class="w"> </span>cp<span class="w"> </span>mydatabase_dump.sql<span class="w"> </span>&lt;container_name&gt;:/mydatabase_dump.sql
+</span></code></pre></div>
+<p>For example:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>docker<span class="w"> </span>cp<span class="w"> </span>mydatabase_dump.sql<span class="w"> </span>my_mysql:/mydatabase_dump.sql
+</span></code></pre></div></p>
+<h4 id="step-2-execute-the-mysql-command-inside-the-container">Step 2: Execute the <code>mysql</code> Command Inside the Container</h4>
+<p>Once the file is inside the container, you can use the <code>mysql</code> command to import the database.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-i<span class="w"> </span>&lt;container_name&gt;<span class="w"> </span>mysql<span class="w"> </span>-u<span class="w"> </span>&lt;username&gt;<span class="w"> </span>-p&lt;password&gt;<span class="w"> </span>&lt;database_name&gt;<span class="w"> </span>&lt;<span class="w"> </span>/mydatabase_dump.sql
+</span></code></pre></div>
+<p>For example:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-i<span class="w"> </span>my_mysql<span class="w"> </span>mysql<span class="w"> </span>-u<span class="w"> </span>myuser<span class="w"> </span>-pmypassword<span class="w"> </span>mydatabase<span class="w"> </span>&lt;<span class="w"> </span>/mydatabase_dump.sql
+</span></code></pre></div></p>
+<p>This command will import the SQL dump into the specified MySQL database.</p>
+<h3 id="3-import-using-a-volume-mount"><strong>3. Import Using a Volume Mount</strong></h3>
+<p>You can also mount the SQL dump file directly when starting the container, and import the data using the same command:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>my_mysql<span class="w"> </span>-v<span class="w"> </span>/path/to/mydatabase_dump.sql:/mydatabase_dump.sql<span class="w"> </span>-e<span class="w"> </span><span class="nv">MYSQL_ROOT_PASSWORD</span><span class="o">=</span>rootpassword<span class="w"> </span>-d<span class="w"> </span>mysql:8.0
+</span></code></pre></div>
+<p>Then, execute the import:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-i<span class="w"> </span>my_mysql<span class="w"> </span>mysql<span class="w"> </span>-u<span class="w"> </span>root<span class="w"> </span>-prootpassword<span class="w"> </span>mydatabase<span class="w"> </span>&lt;<span class="w"> </span>/mydatabase_dump.sql
+</span></code></pre></div>
+<h3 id="troubleshooting"><strong>Troubleshooting:</strong></h3>
+<ul>
+<li>Ensure the database (<code>mydatabase</code>) exists before importing. You can create it manually or via the <code>MYSQL_DATABASE</code> environment variable during container setup.</li>
+<li>If you're importing large datasets, ensure you adjust MySQL’s settings (like <code>max_allowed_packet</code>).</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1491,13 +1780,15 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["content.tooltips"], "search": "/assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.tooltips"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

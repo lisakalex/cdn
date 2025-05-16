@@ -8,22 +8,28 @@
       
       
       
+        <link rel="canonical" href="https://sitename.example/linux/check%20health%20of%20ubuntu%20server/">
       
       
+        <link rel="prev" href="../certbot%20to%20get%20sertificate%20and%20istall%20ssl/">
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      
+        <link rel="next" href="../deal%20with%20with%20crlf%20and%20lf%20/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>Documentation</title>
+        <title>Check health of ubuntu server - Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,14 +48,23 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -67,6 +82,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-cpu-and-memory-usage" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -79,7 +99,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -99,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Check health of ubuntu server
             
           </span>
         </div>
@@ -203,7 +223,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -221,7 +241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -281,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/Comparison-of-Class-1.5-C200/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/Comparison-of-Class-1.5-C200/" class="md-nav__link">
         
   
   
@@ -304,7 +324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/Suspension-arm/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/Suspension-arm/" class="md-nav__link">
         
   
   
@@ -327,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/mercedes-benz/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/mercedes-benz/" class="md-nav__link">
         
   
   
@@ -350,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Mercedes-Benz/road-tax-for-elcectirc-vihecle/" class="md-nav__link">
+      <a href="../../Mercedes-Benz/road-tax-for-elcectirc-vihecle/" class="md-nav__link">
         
   
   
@@ -418,7 +438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/connect_to_a_mysql/" class="md-nav__link">
+      <a href="../../docker/connect_to_a_mysql/" class="md-nav__link">
         
   
   
@@ -441,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/copy%20docker%20image%20to%20%20other%20host/" class="md-nav__link">
+      <a href="../../docker/copy%20docker%20image%20to%20%20other%20host/" class="md-nav__link">
         
   
   
@@ -464,7 +484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/docker%20create%20image%20from%20running%20container/" class="md-nav__link">
+      <a href="../../docker/docker%20create%20image%20from%20running%20container/" class="md-nav__link">
         
   
   
@@ -487,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/import%20data%20in%20docker%20%20mysql/" class="md-nav__link">
+      <a href="../../docker/import%20data%20in%20docker%20%20mysql/" class="md-nav__link">
         
   
   
@@ -510,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/docker/remove%20all%20images%20and%20containers%20in%20docker/" class="md-nav__link">
+      <a href="../../docker/remove%20all%20images%20and%20containers%20in%20docker/" class="md-nav__link">
         
   
   
@@ -578,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/electrum/cold%20electrum%20wallet/" class="md-nav__link">
+      <a href="../../electrum/cold%20electrum%20wallet/" class="md-nav__link">
         
   
   
@@ -601,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/electrum/install%20elcectrum%20wallet/" class="md-nav__link">
+      <a href="../../electrum/install%20elcectrum%20wallet/" class="md-nav__link">
         
   
   
@@ -669,7 +689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/agencies%20generally%20do%20not%20contact%20a%20candidate%E2%80%99s%20current%20employer/" class="md-nav__link">
+      <a href="../../job/agencies%20generally%20do%20not%20contact%20a%20candidate%E2%80%99s%20current%20employer/" class="md-nav__link">
         
   
   
@@ -692,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/average%20salary%20devops%20engeneer%20in%20the%20uk/" class="md-nav__link">
+      <a href="../../job/average%20salary%20devops%20engeneer%20in%20the%20uk/" class="md-nav__link">
         
   
   
@@ -715,7 +735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/national%20minim%20wages%20in%20the%20uk/" class="md-nav__link">
+      <a href="../../job/national%20minim%20wages%20in%20the%20uk/" class="md-nav__link">
         
   
   
@@ -738,7 +758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/nine%20hours%20per%20shift%20%20patten%20four%20on%20two%20off/" class="md-nav__link">
+      <a href="../../job/nine%20hours%20per%20shift%20%20patten%20four%20on%20two%20off/" class="md-nav__link">
         
   
   
@@ -761,7 +781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/perplexity%20average%20salary%20for%20a%20DevOps%20/" class="md-nav__link">
+      <a href="../../job/perplexity%20average%20salary%20for%20a%20DevOps%20/" class="md-nav__link">
         
   
   
@@ -784,7 +804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/job/updating%20your%20CV%20can%20significantly%20improve%20your%20visibility%20/" class="md-nav__link">
+      <a href="../../job/updating%20your%20CV%20can%20significantly%20improve%20your%20visibility%20/" class="md-nav__link">
         
   
   
@@ -811,18 +831,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -838,7 +860,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Linux
@@ -852,7 +874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/Restore%20Old%20SSH%20Key%20%28If%20Backed%20Up%29/" class="md-nav__link">
+      <a href="../Restore%20Old%20SSH%20Key%20%28If%20Backed%20Up%29/" class="md-nav__link">
         
   
   
@@ -875,7 +897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/Website%20Generator/" class="md-nav__link">
+      <a href="../Website%20Generator/" class="md-nav__link">
         
   
   
@@ -898,7 +920,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/basic%20nano%20usage/" class="md-nav__link">
+      <a href="../basic%20nano%20usage/" class="md-nav__link">
         
   
   
@@ -921,7 +943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/certbot%20to%20get%20sertificate%20and%20istall%20ssl/" class="md-nav__link">
+      <a href="../certbot%20to%20get%20sertificate%20and%20istall%20ssl/" class="md-nav__link">
         
   
   
@@ -941,10 +963,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/linux/check%20health%20of%20ubuntu%20server/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Check health of ubuntu server
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -955,6 +997,114 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-cpu-and-memory-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. CPU and Memory Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-disk-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Disk Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-network-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Network Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-system-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. System Logs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-system-uptime" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. System Uptime
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-service-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Service Status
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-storage-and-io-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Storage and I/O Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-system-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. System Updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-overall-system-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Overall System Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-health-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automated Health Checks
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -967,7 +1117,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/deal%20with%20with%20crlf%20and%20lf%20/" class="md-nav__link">
+      <a href="../deal%20with%20with%20crlf%20and%20lf%20/" class="md-nav__link">
         
   
   
@@ -990,7 +1140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/install%20mod_wsgi/" class="md-nav__link">
+      <a href="../install%20mod_wsgi/" class="md-nav__link">
         
   
   
@@ -1013,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/intellij%20linux%20make%20all%20line%20endings%20lr/" class="md-nav__link">
+      <a href="../intellij%20linux%20make%20all%20line%20endings%20lr/" class="md-nav__link">
         
   
   
@@ -1036,7 +1186,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/linux%20grep%20tutorial/" class="md-nav__link">
+      <a href="../linux%20grep%20tutorial/" class="md-nav__link">
         
   
   
@@ -1059,7 +1209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/python%20capitalise%20string%20/" class="md-nav__link">
+      <a href="../python%20capitalise%20string%20/" class="md-nav__link">
         
   
   
@@ -1082,7 +1232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/linux/uninstall%20diodon/" class="md-nav__link">
+      <a href="../uninstall%20diodon/" class="md-nav__link">
         
   
   
@@ -1150,7 +1300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/Camera%20cannot%20detect%20the%20aperture%20value/" class="md-nav__link">
+      <a href="../../other/Camera%20cannot%20detect%20the%20aperture%20value/" class="md-nav__link">
         
   
   
@@ -1173,7 +1323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/MkDocs-Setup/" class="md-nav__link">
+      <a href="../../other/MkDocs-Setup/" class="md-nav__link">
         
   
   
@@ -1196,7 +1346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/MkDocs-web-server/" class="md-nav__link">
+      <a href="../../other/MkDocs-web-server/" class="md-nav__link">
         
   
   
@@ -1219,7 +1369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/UK%20Immigration%20App/" class="md-nav__link">
+      <a href="../../other/UK%20Immigration%20App/" class="md-nav__link">
         
   
   
@@ -1242,7 +1392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/Welcome%20to%20MkDocs/" class="md-nav__link">
+      <a href="../../other/Welcome%20to%20MkDocs/" class="md-nav__link">
         
   
   
@@ -1265,7 +1415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/admonitions/" class="md-nav__link">
+      <a href="../../other/admonitions/" class="md-nav__link">
         
   
   
@@ -1288,7 +1438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/code-examples/" class="md-nav__link">
+      <a href="../../other/code-examples/" class="md-nav__link">
         
   
   
@@ -1311,7 +1461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/content-tabs/" class="md-nav__link">
+      <a href="../../other/content-tabs/" class="md-nav__link">
         
   
   
@@ -1334,7 +1484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/diagram-examples/" class="md-nav__link">
+      <a href="../../other/diagram-examples/" class="md-nav__link">
         
   
   
@@ -1357,7 +1507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/documentation-sites/" class="md-nav__link">
+      <a href="../../other/documentation-sites/" class="md-nav__link">
         
   
   
@@ -1380,7 +1530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/line-endings/" class="md-nav__link">
+      <a href="../../other/line-endings/" class="md-nav__link">
         
   
   
@@ -1403,7 +1553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/other/top%20navigation%20bar/" class="md-nav__link">
+      <a href="../../other/top%20navigation%20bar/" class="md-nav__link">
         
   
   
@@ -1444,6 +1594,104 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-cpu-and-memory-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. CPU and Memory Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-disk-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Disk Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-network-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Network Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-system-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. System Logs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-system-uptime" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. System Uptime
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-service-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Service Status
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-storage-and-io-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Storage and I/O Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-system-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. System Updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-overall-system-health" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Overall System Health
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-health-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automated Health Checks
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1454,8 +1702,89 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+  <h1>Check health of ubuntu server</h1>
+
+<p>To check the health of an Ubuntu server, you can use several tools and commands to assess system performance, resource usage, and overall status. Here's a guide:</p>
+<h3 id="1-cpu-and-memory-usage">1. <strong>CPU and Memory Usage</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>top</code> or <code>htop</code> (requires installation with <code>sudo apt install htop</code>)</li>
+<li><strong>Purpose:</strong> Displays real-time information about CPU and memory usage, along with running processes.</li>
+</ul>
+<h3 id="2-disk-usage">2. <strong>Disk Usage</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>df -h</code></li>
+<li>
+<p><strong>Purpose:</strong> Checks available and used disk space on mounted filesystems.</p>
+</li>
+<li>
+<p><strong>Command:</strong> <code>du -sh /path/to/directory</code></p>
+</li>
+<li><strong>Purpose:</strong> Displays disk usage for a specific directory.</li>
+</ul>
+<h3 id="3-network-health">3. <strong>Network Health</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>ping -c 4 google.com</code></li>
+<li><strong>Purpose:</strong> Tests connectivity to the internet.</li>
+<li><strong>Command:</strong> <code>ifconfig</code> or <code>ip a</code></li>
+<li><strong>Purpose:</strong> Displays IP address and network interface details.</li>
+<li><strong>Command:</strong> <code>netstat -tuln</code></li>
+<li><strong>Purpose:</strong> Lists open ports and active network connections.</li>
+</ul>
+<h3 id="4-system-logs">4. <strong>System Logs</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>journalctl -p 3 -xb</code></li>
+<li><strong>Purpose:</strong> Checks logs for recent critical errors.</li>
+<li><strong>Command:</strong> <code>tail -n 100 /var/log/syslog</code></li>
+<li><strong>Purpose:</strong> Displays the last 100 lines of the system log.</li>
+</ul>
+<h3 id="5-system-uptime">5. <strong>System Uptime</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>uptime</code></li>
+<li><strong>Purpose:</strong> Shows how long the system has been running and the current load averages.</li>
+</ul>
+<h3 id="6-service-status">6. <strong>Service Status</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>systemctl status [service_name]</code></li>
+<li><strong>Purpose:</strong> Checks the status of a specific service (e.g., <code>nginx</code>, <code>mysql</code>).</li>
+</ul>
+<h3 id="7-storage-and-io-health">7. <strong>Storage and I/O Health</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>smartctl -a /dev/sdX</code> (replace <code>/dev/sdX</code> with your drive)</li>
+<li><strong>Purpose:</strong> Monitors the health of hard drives (requires <code>sudo apt install smartmontools</code>).</li>
+</ul>
+<h3 id="8-system-updates">8. <strong>System Updates</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>sudo apt update &amp;&amp; sudo apt upgrade</code></li>
+<li><strong>Purpose:</strong> Ensures your server software is up to date.</li>
+</ul>
+<h3 id="9-overall-system-health">9. <strong>Overall System Health</strong></h3>
+<ul>
+<li><strong>Command:</strong> <code>glances</code> (requires installation with <code>sudo apt install glances</code>)</li>
+<li><strong>Purpose:</strong> Provides an all-in-one view of CPU, memory, disk, network, and processes.</li>
+</ul>
+<h3 id="automated-health-checks">Automated Health Checks</h3>
+<p>Consider using monitoring tools like:
+   - <strong>Nagios:</strong> For advanced monitoring and alerting.
+   - <strong>Zabbix:</strong> For enterprise-grade server monitoring.
+   - <strong>CloudWatch (AWS):</strong> If hosted on AWS, use CloudWatch for resource tracking.</p>
+<p>By running these checks regularly, you can proactively address issues and ensure your Ubuntu server runs optimally.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1491,13 +1820,15 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["content.tooltips"], "search": "/assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.tooltips"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
