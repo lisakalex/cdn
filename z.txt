@@ -15,5 +15,8 @@ https://lisakalex.github.io/cdn/jenkins/assets/pie-data.json
 chatik
 https://lisakalex.github.io/cdn/chatik/sidebar.html
 
+htm
+https://lisakalex.github.io/cdn/htm/lidl-plus/
+
 
 
