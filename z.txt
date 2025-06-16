@@ -18,5 +18,8 @@ https://lisakalex.github.io/cdn/chatik/sidebar.html
 htm
 https://lisakalex.github.io/cdn/htm/lidl-plus/
 
+vevrecapital
+https://lisakalex.github.io/cdn/vevrecapital/public/css/all.min.css
+
 
 
