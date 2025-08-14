@@ -1,4 +1,0 @@
-~~~
-set up a new virtual host
-./setup_gandon_site.sh jenkins.com
-./setup_gandon_site.sh mkdocs.com
