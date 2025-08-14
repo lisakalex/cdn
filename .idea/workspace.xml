@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2190edb5-4c4d-413a-8bd7-9bd963ee0fbf" name="Changes" comment="site">
-      <change afterPath="$PROJECT_DIR$/htm/decking-oil-and-decking-protector-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htm/decking-oil-and-decking-protector-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htm/decking-oil-and-decking-protector-1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755158227253</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="site">
+      <option name="closed" value="true" />
+      <created>1755158516015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755158516015</updated>
+    </task>
+    <task id="LOCAL-00007" summary="site">
+      <option name="closed" value="true" />
+      <created>1755158607959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755158607959</updated>
+    </task>
+    <task id="LOCAL-00008" summary="site">
+      <option name="closed" value="true" />
+      <created>1755158787830</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755158787830</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
