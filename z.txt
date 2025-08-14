@@ -1,24 +1,3 @@
-https://lisakalex.github.io/cdn/hindex.uk/assets/images/logo.png
-https://lisakalex.github.io/cdn/hindex.uk/assets/images/kpi.png
-https://lisakalex.github.io/cdn/new-ubuntu.txt
-https://lisakalex.github.io/cdn/AI Summarizes User Request.html
-https://lisakalex.github.io/cdn/connect_to_a_mysql.md
-https://lisakalex.github.io/cdn/mot-7-4-25.png
-https://lisakalex.github.io/cdn/column-stacked.json
-https://lisakalex.github.io/cdn/column-stacked-1.json
-https://lisakalex.github.io/cdn/mkdocs/
-https://lisakalex.github.io/cdn/aapl-c-1.json
-
-jenkins
-https://lisakalex.github.io/cdn/jenkins/assets/pie-data.json
-
-chatik
-https://lisakalex.github.io/cdn/chatik/sidebar.html
-
-vevrecapital
-https://lisakalex.github.io/cdn/vevrecapital/public/css/all.min.css
-https://lisakalex.github.io/cdn/mkdocs/other/decking-oil-and-decking-protector-1
-
 ~~~
 htm
 https://lisakalex.github.io/cdn/htm/lidl-plus/
