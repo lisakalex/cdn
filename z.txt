@@ -1,6 +1,107 @@
+MkDocs + Material Theme
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install mkdocs-material
+mkdocs new mydocs
+cd mydocs
+mkdocs serve
+mkdocs build
+
+Then deploy via mkdocs build → static HTML → serve with Nginx/Apache.
+
+➡️ Docs: https://squidfunk.github.io/mkdocs-material/
+
+after the computer restarts,
+cd /home/al/mkdocs && source ~/.venv/bin/activate && mkdocs serve
+
+~~
+after the computer restarts,
+cd /var/www/mkdocs && source ~/.venv/bin/activate && mkdocs serve --dev-addr=127.0.0.1:8009
+~~
+
+To stop all Python-based web servers:
+pkill -f mkdocs
+mkdocs serve --dev-addr=127.0.0.1:8001
+
+sudo lsof -i :8000
+kill -9 12345
+
+~~~
+create .md file from template using python
+./generate_markdown.py --filename "gaga Lady" --author "Huykin"
+
+~~~
+This doesn't quite work because the structure is broken.
+The phrase "I have had with travellers..." is missing a noun (like ‘conversations’) that the sentence refers to.
+
+Correct version
+I can't tell you how many conversations I have had with travellers dressed head-to-toe in North Face gear:"
+"Where are you going hiking?" or "What summit are you going to tackle while you're here?"
+
+Here’s why it's correct:
+"conversations I have had" is the object.
+"with travellers dressed..." is describing who the conversations were with.
+The colon introduces what those conversations sounded like.
+
+~~~
+Це не зовсім правильно, тому що структура речення порушена.
+У фразі "I have had with travellers..." бракує іменника (наприклад, ‘conversations’), на який посилається речення.
+
+правильний варіант
+I can't tell you how many conversations I have had with travellers dressed head-to-toe in North Face gear:"
+"Where are you going hiking?" or "What summit are you going to tackle while you're here?"
+Ось чому правильний варіант виглядає так:
+
+"conversations I have had" — це додаток (тобто те, що я мав).
+"with travellers dressed..." — описує, з ким були ці розмови.
+Двокрапка (:) вводить приклади того, як саме звучали ці розмови.
+The most popular Mercedes-Benz C-Class.md
+
+~~~
+    font-family: TUITypeLight, tuitypelightregular, tui-type, tuitype, arial, sans-serif;
+
+~~~
+th.jpeg
+http://localhost:8000/mercedes-benz/img/th.jpeg
+/var/www/mkdocs/docs/mercedes-benz/img/th.jpeg
+
+~~~
+mkdocs serve -a 0.0.0.0:8081
+
+~~~
+hide all
+
+<link rel="stylesheet" href="../../mkdocs/assets/stylesheets/main.2afb09e1.min.css">
+<link rel="stylesheet" href="../../mkdocs/assets/stylesheets/palette.06af60db.min.css">
+
+    <style>
+        .md-header {
+            display: none;
+        }
+
+        .md-nav {
+            display: none;
+        }
+
+        footer {
+            display: none;
+        }
+    </style>
+
+~~~
+class-signinviaemailform.md
+
 ~~~
 htm
 https://lisakalex.github.io/cdn/htm/lidl-plus/
 https://lisakalex.github.io/cdn/htm/connect-to-a-mysql/
 https://lisakalex.github.io/cdn/htm/test-drive/
+
+~~~
+
+
+
+
+
 
