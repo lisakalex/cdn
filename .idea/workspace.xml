@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2190edb5-4c4d-413a-8bd7-9bd963ee0fbf" name="Changes" comment="line-endings">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htm/connect-to-a-mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htm/connect-to-a-mysql/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htm/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755178838906</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="line-endings">
+      <option name="closed" value="true" />
+      <created>1755179455885</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755179455885</updated>
+    </task>
+    <task id="LOCAL-00015" summary="line-endings">
+      <option name="closed" value="true" />
+      <created>1755179501909</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755179501909</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
