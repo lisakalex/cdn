@@ -99,8 +99,15 @@ https://lisakalex.github.io/cdn/htm/connect-to-a-mysql/
 https://lisakalex.github.io/cdn/htm/test-drive/
 
 ~~~
+fucked up for two hours (created venv in the repo for mkdocs)
+Configuring a publishing source for your GitHub Pages site
+Troubleshooting publishing from a branch
+Note
 
+If your repository contains symbolic links, you will need to publish your site using a GitHub Actions workflow.
+For more information about GitHub Actions, see GitHub Actions documentation.
 
+~~~
 
 
 
