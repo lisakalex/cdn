@@ -4,260 +4,165 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2190edb5-4c4d-413a-8bd7-9bd963ee0fbf" name="Changes" comment="site">
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/blog/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/blog/posts/drafts/.meta.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/blog/posts/drafts/draft.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/blog/posts/myfirst.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/bitcoin-payments-using-lectrum.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/chatgpt-django-forms.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/class-EmailForm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/class-LogInView-chatgpt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/class-LogInView-intellij.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/class-SignIn.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/class-SignInViaEmailForm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/create-migrations-and-forms.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/django-forms-code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/django-model-payment-listener-setup.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/electrum-btc-payments/electrum-btc-payments-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/electrum-btc-payments/electrum-btc-payments.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/gunicorn-nginx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/install-django-toolbar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/django/test-stress.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/docker/connect-to-a-mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/docker/copy-docker-image-to-other-host.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/docker/docker-create-image-from-running-container.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/docker/import-data-in-docker-mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/docker/remove-all-images-and-containers-in-docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/electrum/cold electrum wallet.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/electrum/install elcectrum wallet.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/english/level-exercises.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/Comparison-of-Class-1.5-C200.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/Suspension-arm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/The most popular Mercedes-Benz C-Class.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/mercedes-benz.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/road-tax-for-elcectirc-vihecle.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/agencies generally do not contact a candidate’s current employer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/average salary devops engeneer in the uk.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/average-devops-salary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/national minim wages in the uk.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/nine hours per shift  patten four on two off.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/perplexity average salary for a DevOps .md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/updating your CV can significantly improve your visibility .md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/job/wage-comparison.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/Restore Old SSH Key (If Backed Up).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/Website Generator.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/basic nano usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/certbot to get sertificate and istall ssl.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/check health of ubuntu server.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/deal with with crlf and lf .md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/debug-django-app.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/install mod_wsgi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/install-postgresql-and-creat-user.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/install-postgresql-in-venv-or-system-level.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/intellij linux make all line endings lr.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/linux grep tutorial.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/postgresql-vs-mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/python capitalise string .md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/uninstall diodon.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/linux/venv-isn't-isolated-correctly.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/braking-energy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/comparison-of-class.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/depritiation-graph.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/environmental-impact.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/may-20–may-22-2025.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/most-popular.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/suspension-arm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/Basic Lawn Care Checklist.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/Gap Fill – Nepal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/MkDocs-Setup.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/MkDocs-web-server.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/UK Immigration App.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/Welcome to MkDocs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/admonitions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/article-the-a.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/camera-cannot-detect-the-aperture-value.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/central-jenkinsfile-repository.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/code-examples.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/configuration.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/content-tabs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/crawley-north-terminal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/decking-oil-and-decking-protector-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/decking-oil-and-decking-protector.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/denisa-maria-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/denisa-maria-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/denisa-maria.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/diagram-examples.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/documentation-sites.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/intellij-idea-ultimate-vs-eap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/lidl-plus-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/lidl-plus.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/line-endings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/secure_configuration_properties.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/top navigation bar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/docs/other/wget_manual.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/includes/abbreviations.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydocs/mkdocs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/assets/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/bundle.13a4f30d.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/bundle.13a4f30d.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.ar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.da.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.de.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.du.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.el.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.es.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.fi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.fr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.he.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.hi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.hu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.hy.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.it.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.ja.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.jp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.kn.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.ko.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.multi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.nl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.no.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.pt.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.ro.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.ru.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.sa.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.stemmer.support.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.sv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.ta.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.te.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.th.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.tr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.vi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/min/lunr.zh.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/tinyseg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/lunr/wordcut.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/workers/search.d50fe291.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/javascripts/workers/search.d50fe291.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/stylesheets/main.342714a4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/stylesheets/main.342714a4.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/stylesheets/palette.06af60db.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/assets/stylesheets/palette.06af60db.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/blog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/blog/posts/drafts/draft/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/blog/posts/myfirst/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/bitcoin-payments-using-lectrum/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/chatgpt-django-forms/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/class-EmailForm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/class-LogInView-chatgpt/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/class-LogInView-intellij/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/class-SignIn/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/class-SignInViaEmailForm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/create-migrations-and-forms/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/django-forms-code/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/django-model-payment-listener-setup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/electrum-btc-payments/electrum-btc-payments-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/electrum-btc-payments/electrum-btc-payments/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/gunicorn-nginx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/install-django-toolbar/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/django/test-stress/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/docker/connect-to-a-mysql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/docker/copy-docker-image-to-other-host/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/docker/docker-create-image-from-running-container/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/docker/import-data-in-docker-mysql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/docker/remove-all-images-and-containers-in-docker/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/electrum/cold electrum wallet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/electrum/install elcectrum wallet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/english/level-exercises/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/Comparison-of-Class-1.5-C200/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/Suspension-arm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/The most popular Mercedes-Benz C-Class/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/img/d-80-nikon.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/img/d-80-nikon.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/img/th (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/img/th (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/img/th (2).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/img/th (2).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/img/th (3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/img/th (3).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/img/th.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/job/Mercedes-Benz/img/th.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/mercedes-benz/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/Mercedes-Benz/road-tax-for-elcectirc-vihecle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/agencies generally do not contact a candidate’s current employer/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/average salary devops engeneer in the uk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/average-devops-salary/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/national minim wages in the uk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/nine hours per shift  patten four on two off/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/perplexity average salary for a DevOps /index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/updating your CV can significantly improve your visibility /index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/job/wage-comparison/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/Restore Old SSH Key (If Backed Up)/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/Website Generator/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/basic nano usage/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/certbot to get sertificate and istall ssl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/check health of ubuntu server/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/deal with with crlf and lf /index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/debug-django-app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/install mod_wsgi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/install-postgresql-and-creat-user/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/install-postgresql-in-venv-or-system-level/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/intellij linux make all line endings lr/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/linux grep tutorial/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/newhost/000-default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/linux/newhost/000-default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/newhost/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/linux/newhost/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/newhost/html/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/linux/newhost/html/info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/newhost/setup_gandon_site.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/linux/newhost/setup_gandon_site.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/newhost/z.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/linux/newhost/z.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/postgresql-vs-mysql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/python capitalise string /index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/uninstall diodon/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/linux/venv-isn't-isolated-correctly/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/braking-energy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/comparison-of-class/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/depritiation-graph/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/environmental-impact/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/img/2d6fb2bb-b1a5-4466-8e34-6cce07220a0d" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/img/2d6fb2bb-b1a5-4466-8e34-6cce07220a0d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/img/d-80-nikon.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/img/d-80-nikon.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/img/merc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/img/merc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/img/th (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/img/th (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/img/th (2).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/img/th (2).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/img/th (3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/img/th (3).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/img/th.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/mercedes-benz/img/th.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/may-20–may-22-2025/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/most-popular/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/mercedes-benz/suspension-arm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/Basic Lawn Care Checklist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/Gap Fill – Nepal/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/MkDocs-Setup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/MkDocs-web-server/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/UK Immigration App/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/Welcome to MkDocs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/admonitions/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/article-the-a/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/camera-cannot-detect-the-aperture-value/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/central-jenkinsfile-repository/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/code-examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/configuration/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/content-tabs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/crawley-north-terminal/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/decking-oil-and-decking-protector-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/decking-oil-and-decking-protector/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/denisa-maria-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/denisa-maria-2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/denisa-maria/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/diagram-examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/documentation-sites/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/img/d-80-nikon.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/mydocs/docs/other/img/d-80-nikon.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/intellij-idea-ultimate-vs-eap/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/lidl-plus-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/lidl-plus/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/line-endings/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/secure_configuration_properties/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/top navigation bar/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/other/wget_manual/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/search/search_index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/sitemap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs/site/sitemap.xml.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z.txt" beforeDir="false" afterPath="$PROJECT_DIR$/z.txt" afterDir="false" />
+    <list default="true" id="2190edb5-4c4d-413a-8bd7-9bd963ee0fbf" name="Changes" comment="mydocs">
+      <change afterPath="$PROJECT_DIR$/mydocs/site/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/bundle.50899def.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/bundle.50899def.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.du.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.jp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.kn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.multi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.sa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.stemmer.support.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.te.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/min/lunr.zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/tinyseg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/lunr/wordcut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/workers/search.d50fe291.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/javascripts/workers/search.d50fe291.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/stylesheets/main.7e37652d.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/stylesheets/main.7e37652d.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/stylesheets/palette.06af60db.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/assets/stylesheets/palette.06af60db.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/blog/posts/drafts/draft/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/blog/posts/myfirst/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/bitcoin-payments-using-lectrum/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/chatgpt-django-forms/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/class-EmailForm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/class-LogInView-chatgpt/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/class-LogInView-intellij/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/class-SignIn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/class-SignInViaEmailForm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/create-migrations-and-forms/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/django-forms-code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/django-model-payment-listener-setup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/electrum-btc-payments/electrum-btc-payments-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/electrum-btc-payments/electrum-btc-payments/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/gunicorn-nginx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/install-django-toolbar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/django/test-stress/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/docker/connect-to-a-mysql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/docker/copy-docker-image-to-other-host/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/docker/docker-create-image-from-running-container/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/docker/import-data-in-docker-mysql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/docker/remove-all-images-and-containers-in-docker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/electrum/cold electrum wallet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/electrum/install elcectrum wallet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/english/level-exercises/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/Comparison-of-Class-1.5-C200/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/Suspension-arm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/The most popular Mercedes-Benz C-Class/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/img/d-80-nikon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/img/th (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/img/th (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/img/th (3).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/img/th.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/mercedes-benz/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/Mercedes-Benz/road-tax-for-elcectirc-vihecle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/agencies generally do not contact a candidate’s current employer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/average salary devops engeneer in the uk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/average-devops-salary/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/national minim wages in the uk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/nine hours per shift  patten four on two off/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/perplexity average salary for a DevOps /index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/updating your CV can significantly improve your visibility /index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/job/wage-comparison/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/Restore Old SSH Key (If Backed Up)/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/Website Generator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/basic nano usage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/certbot to get sertificate and istall ssl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/check health of ubuntu server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/deal with with crlf and lf /index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/debug-django-app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/install mod_wsgi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/install-postgresql-and-creat-user/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/install-postgresql-in-venv-or-system-level/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/intellij linux make all line endings lr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/linux grep tutorial/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/newhost/000-default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/newhost/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/newhost/html/info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/newhost/setup_gandon_site.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/newhost/z.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/postgresql-vs-mysql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/python capitalise string /index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/uninstall diodon/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/linux/venv-isn't-isolated-correctly/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/braking-energy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/comparison-of-class/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/depritiation-graph/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/environmental-impact/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/img/2d6fb2bb-b1a5-4466-8e34-6cce07220a0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/img/d-80-nikon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/img/merc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/img/th (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/img/th (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/img/th (3).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/img/th.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/may-20–may-22-2025/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/most-popular/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/mercedes-benz/suspension-arm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/Basic Lawn Care Checklist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/Gap Fill – Nepal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/MkDocs-Setup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/MkDocs-web-server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/UK Immigration App/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/Welcome to MkDocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/admonitions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/article-the-a/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/camera-cannot-detect-the-aperture-value/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/central-jenkinsfile-repository/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/code-examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/configuration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/content-tabs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/crawley-north-terminal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/decking-oil-and-decking-protector-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/decking-oil-and-decking-protector/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/denisa-maria-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/denisa-maria-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/denisa-maria/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/diagram-examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/documentation-sites/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/img/d-80-nikon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/intellij-idea-ultimate-vs-eap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/lidl-plus-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/lidl-plus/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/line-endings/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/secure_configuration_properties/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/top navigation bar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/other/wget_manual/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/search/search_index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydocs/site/sitemap.xml.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +240,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755152528466</updated>
-      <workItem from="1755152529553" duration="2961000" />
+      <workItem from="1755152529553" duration="3317000" />
     </task>
     <task id="LOCAL-00001" summary="test-drive">
       <option name="closed" value="true" />
@@ -353,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755153684157</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mydocs">
+      <option name="closed" value="true" />
+      <created>1755155525979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755155525979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +277,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="test-drive" />
     <MESSAGE value="site" />
-    <option name="LAST_COMMIT_MESSAGE" value="site" />
+    <MESSAGE value="mydocs" />
+    <option name="LAST_COMMIT_MESSAGE" value="mydocs" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
