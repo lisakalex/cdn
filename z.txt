@@ -97,7 +97,7 @@ htm
 https://lisakalex.github.io/cdn/htm/lidl-plus/
 https://lisakalex.github.io/cdn/htm/connect-to-a-mysql/
 https://lisakalex.github.io/cdn/htm/test-drive/
-
+b
 ~~~
 fucked up for two hours (created venv in the repo for mkdocs)
 Configuring a publishing source for your GitHub Pages site
