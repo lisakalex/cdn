@@ -4,62 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c373ee3-b74d-45e0-8e0f-ead09397b107" name="Changes" comment="huy">
-      <change afterPath="$PROJECT_DIR$/html/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/bundle.13a4f30d.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/bundle.13a4f30d.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.du.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.hi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.jp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.kn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.multi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.sa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.stemmer.support.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.ta.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.te.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/min/lunr.zh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/tinyseg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/lunr/wordcut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/workers/search.d50fe291.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/javascripts/workers/search.d50fe291.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/stylesheets/main.342714a4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/stylesheets/main.342714a4.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/stylesheets/palette.06af60db.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/assets/stylesheets/palette.06af60db.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/basic-nano-usage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/GitBook.html" beforeDir="false" />
+    <list default="true" id="0c373ee3-b74d-45e0-8e0f-ead09397b107" name="Changes" comment="da">
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/0dee5007-6b03-4b47-ab5f-29fa4ae704b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/39204332-fe46-42a0-a1ee-2f13ad625621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/40face33-c6ad-4a5d-b402-5f7126e8325f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/53E2BF11-45A8-452D-9914-9F965AE361E2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/6e753838-60eb-43a4-96ca-fec1e338c972" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/8442b7c2-f792-426d-abd3-acf61cd6906c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/FormattedText-iztk4amh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/Website Generator GPT logo 2024-06-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/ansi-1f6vhsjh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/b206cc8a-1bb0-4564-b222-eee690e15519" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/codemirror-nauedrd6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/comments-plugin-tah3dlup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/conversation-small-dhmr708a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/prosemirror-eh65ggsy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/root-mz8zw71c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/1/test-drive/test-drive_files/unnamed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test-drive/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/0dee5007-6b03-4b47-ab5f-29fa4ae704b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/39204332-fe46-42a0-a1ee-2f13ad625621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/40face33-c6ad-4a5d-b402-5f7126e8325f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/53E2BF11-45A8-452D-9914-9F965AE361E2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/6e753838-60eb-43a4-96ca-fec1e338c972" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/8442b7c2-f792-426d-abd3-acf61cd6906c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/FormattedText-iztk4amh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/Website Generator GPT logo 2024-06-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/ansi-1f6vhsjh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/b206cc8a-1bb0-4564-b222-eee690e15519" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/codemirror-nauedrd6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/comments-plugin-tah3dlup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/conversation-small-dhmr708a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/cot-message-jnujn6j8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/favicons" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/favicons(1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/prosemirror-eh65ggsy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/root-mz8zw71c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index_files/unnamed.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test-drive-1/39204332-fe46-42a0-a1ee-2f13ad625621.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/test-drive/39204332-fe46-42a0-a1ee-2f13ad625621.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test-drive-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/test-drive/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test-drive-2/39204332-fe46-42a0-a1ee-2f13ad625621.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test-drive-2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test-drive/clean.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/test-drive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/test-drive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z.txt" beforeDir="false" afterPath="$PROJECT_DIR$/z.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +88,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/var/www/cdn.com/html/test-drive",
+    "last_opened_file_path": "/var/www/cdn.com/html",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,8 +99,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/test-drive" />
       <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/html/1" />
+      <recent name="$PROJECT_DIR$/html/test-drive" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -133,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755357361988</updated>
-      <workItem from="1755357363119" duration="2280000" />
+      <workItem from="1755357363119" duration="7368000" />
     </task>
     <task id="LOCAL-00001" summary="huy">
       <option name="closed" value="true" />
@@ -143,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755357399804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="da">
+      <option name="closed" value="true" />
+      <created>1755365531795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755365531795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +158,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="huy" />
-    <option name="LAST_COMMIT_MESSAGE" value="huy" />
+    <MESSAGE value="da" />
+    <option name="LAST_COMMIT_MESSAGE" value="da" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
