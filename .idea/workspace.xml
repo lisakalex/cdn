@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c373ee3-b74d-45e0-8e0f-ead09397b107" name="Changes" comment="da">
-      <change beforePath="$PROJECT_DIR$/html/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755357361988</updated>
-      <workItem from="1755357363119" duration="8676000" />
+      <workItem from="1755357363119" duration="10109000" />
     </task>
     <task id="LOCAL-00001" summary="huy">
       <option name="closed" value="true" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755373576889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="da">
+      <option name="closed" value="true" />
+      <created>1755373848212</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755373848212</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
