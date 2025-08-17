@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c373ee3-b74d-45e0-8e0f-ead09397b107" name="Changes" comment="yeast conversion chart">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/yeast-conversion-chart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/yeast-conversion-chart/index.html" afterDir="false" />
+    <list default="true" id="0c373ee3-b74d-45e0-8e0f-ead09397b107" name="Changes" comment="hotels-classified">
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/40face33-c6ad-4a5d-b402-5f7126e8325f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/53E2BF11-45A8-452D-9914-9F965AE361E2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/FormattedText-iztk4amh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/Website Generator GPT logo 2024-06-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/ansi-1f6vhsjh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/codemirror-nauedrd6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/comments-plugin-tah3dlup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/conversation-small-dhmr708a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/prosemirror-eh65ggsy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/root-mz8zw71c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z.txt" beforeDir="false" afterPath="$PROJECT_DIR$/z.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +101,7 @@
       <updated>1755357361988</updated>
       <workItem from="1755357363119" duration="11784000" />
       <workItem from="1755434820991" duration="8000" />
-      <workItem from="1755434836421" duration="656000" />
+      <workItem from="1755434836421" duration="2508000" />
     </task>
     <task id="LOCAL-00001" summary="huy">
       <option name="closed" value="true" />
@@ -148,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755379737339</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hotels-classified">
+      <option name="closed" value="true" />
+      <created>1755435504190</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755435504190</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +190,8 @@
     <MESSAGE value="huy" />
     <MESSAGE value="da" />
     <MESSAGE value="yeast conversion chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="yeast conversion chart" />
+    <MESSAGE value="hotels-classified" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotels-classified" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>

@@ -115,4 +115,6 @@ https://sdmntprukwest.oaiusercontent.com/files/00000000-1a84-6243-8b6b-dc666fcc6
 when link .css in link crossorigin="" makes it inaccessible
 
 ~~~
+http://cdn.com/test/index_files/root-mz8zw71c.css
+http://cdn.com/hotels-classified/index_files/root-mz8zw71c.css
 
