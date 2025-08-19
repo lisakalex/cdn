@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c373ee3-b74d-45e0-8e0f-ead09397b107" name="Changes" comment="hotels-classified">
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/40face33-c6ad-4a5d-b402-5f7126e8325f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/53E2BF11-45A8-452D-9914-9F965AE361E2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/FormattedText-iztk4amh.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/Website Generator GPT logo 2024-06-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/ansi-1f6vhsjh.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/codemirror-nauedrd6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/comments-plugin-tah3dlup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/conversation-small-dhmr708a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/prosemirror-eh65ggsy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/root-mz8zw71c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/hotels-classified_files/unnamed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/hotels-classified/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hotels-classified/j.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hotels-classified/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hotels-classified/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z.txt" beforeDir="false" afterPath="$PROJECT_DIR$/z.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,37 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/var/www/cdn.com",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/www/test.com&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.stickyLines&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/hotels-classified" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/html/1" />
       <recent name="$PROJECT_DIR$/html/test-drive" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.360" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.360" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,7 +86,8 @@
       <updated>1755357361988</updated>
       <workItem from="1755357363119" duration="11784000" />
       <workItem from="1755434820991" duration="8000" />
-      <workItem from="1755434836421" duration="2508000" />
+      <workItem from="1755434836421" duration="4799000" />
+      <workItem from="1755585900561" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="huy">
       <option name="closed" value="true" />
@@ -167,7 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755435504190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hotels-classified">
+      <option name="closed" value="true" />
+      <created>1755437354906</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755437354906</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hotels-classified">
+      <option name="closed" value="true" />
+      <created>1755437367040</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755437367040</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hotels-classified">
+      <option name="closed" value="true" />
+      <created>1755437542559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755437542559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

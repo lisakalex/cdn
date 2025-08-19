@@ -118,3 +118,6 @@ when link .css in link crossorigin="" makes it inaccessible
 http://cdn.com/test/index_files/root-mz8zw71c.css
 http://cdn.com/hotels-classified/index_files/root-mz8zw71c.css
 
+~~~
+border-token-border-light relative z-21 h-full shrink-0 overflow-hidden border-e max-md:hidden
+border-token-border-light relative z-21 h-full shrink-0 overflow-hidden border-e max-md:hidden
